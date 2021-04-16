@@ -1,0 +1,159 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: white;
+}
+
+* {
+  margin: 0%;
+}
+
+section {
+  height: 100vh;
+  background-image: url(img/Bg.png);
+  background-size: cover;
+  clip-path: inset(0 86% 28% 0);
+  transition: 0.5s;
+}
+
+section:hover {
+  background-image: url(img/bg2.png);
+  clip-path: inset(0 85% 0 0);
+}
+
+div {
+  height: 1000px;
+}
+
+.button {
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2rem;
+  background-color: red;
+  position: relative;
+}
+
+.button:active {
+  background-color: #b22222;
+}
+
+.button2 {
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2rem;
+  background-color: #4b0082;
+  position: 10px 20px;
+}
+
+.button2:active {
+  background-color: #9932cc;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+}
+
+#jujutsu img {
+  width: 200px;
+  height: 250px;
+}
+
+.buttonp {
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2rem;
+  background-color: #054d02;
+  position: 15px 20px;
+}
+
+.buttonj {
+  border: none;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1rem;
+  background-color: #8675b6;
+  position: 30px 20px;
+}
+.buttonj:active {
+  background-color: #9932cc;
+}
+
+.buttonjujutsu {
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1rem;
+  background-color: #8675b6;
+  position: 30px 20px;
+}
+
+.buttonjujutsu:active {
+  background-color: #9932cc;
+}
+
+.buttonmha {
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1rem;
+  background-color: #1f4708;
+  position: 30px 20px;
+}
+
+.buttonmha:active {
+  background-color: #63cc32;
+}
+
+.buttonm {
+  border: none;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1rem;
+  background-color: #5fd88e;
+  position: 30px 20px;
+}
+
+.buttonm:active {
+  background-color: #57a733;
+}
